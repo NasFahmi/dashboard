@@ -7,11 +7,11 @@ export default {
 
   async prerender(){
     return [
-      '/dashboard/transaction',
-      '/dashboard/account',
-      '/dashboard/investment',
-      '/dashboard/loan',
-      '/dashboard/my-privileges',
+      '/transaction',
+      '/account',
+      '/investment',
+      '/loan',
+      '/my-privileges',
     ]; // jika kita mau mendaftarkan hanya beberapa halaman yang ingin prerender maka bisa digunnaka disini
   }
 
