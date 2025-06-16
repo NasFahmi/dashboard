@@ -1,6 +1,6 @@
 import ic_apple from './ic_apple.svg?react';
 import ic_bussines_loan from './ic_bussines_loan.svg?react';
-import ic_chip_card from './ic_chip_card.svg?react';
+import img_chip_card from './img_chip_card.png';
 import ic_credit_card_block from './ic_credit_card_block.svg?react';
 import ic_credit_card from './ic_credit_card.svg?react';
 import ic_economic_idea from './ic_economic_idea.svg?react';
@@ -28,7 +28,7 @@ import image_logo from './image_logo.png';
 export const assets ={
     ic_apple,
     ic_bussines_loan,
-    ic_chip_card,
+    img_chip_card,
     ic_credit_card_block,
     ic_credit_card,
     ic_economic_idea,

@@ -1,4 +1,4 @@
-export default function Settings() {
+export default function SettingPage() {
     return (
         <div className="w-full h-full bg-green-400">
             <h1 className="text-2xl font-bold">Settings Page</h1>
