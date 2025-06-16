@@ -3,7 +3,6 @@ import { assets } from "~/assets/asset";
 
 export default function Sidebar({ isOpen, onClose }: { isOpen: boolean, onClose: () => void }) {
     const { pathname } = useLocation();
-    console.log('Current pathname:', pathname);
 
     const menu = [
         {
