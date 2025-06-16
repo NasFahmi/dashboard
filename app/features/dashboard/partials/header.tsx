@@ -7,7 +7,7 @@ export default function Header({ onToggleSidebar }: { onToggleSidebar: () => voi
     const { pathname } = useLocation();
     const menu = [
         {
-            path: "/",
+            path: "/dashboard",
             label: "Dashboard",
         },
         {
@@ -62,18 +62,18 @@ export default function Header({ onToggleSidebar }: { onToggleSidebar: () => voi
                         <SearchBar />
                     </div>
                     {/* icon Settings */}
-                    <div className="hidden md:block">
+                    <div className="hidden cursor-pointer md:block">
                         <div className="w-10 h-10 flex items-center justify-center bg-[#F5F7FA] rounded-full">
                             <assets.ic_settings_outline className="text-[#718EBF] fill-current" />
                         </div>
                     </div>
                     {/* icon notification */}
-                    <div className="hidden md:block">
+                    <div className="hidden cursor-pointer md:block">
                         <div className="w-10 h-10 flex items-center justify-center bg-[#F5F7FA] rounded-full">
                             <assets.ic_notification className="text-[#FE5C73] fill-current" />
                         </div>
                     </div>
-                    <div className="flex items-center space-x-4 w-[35px] h-[35px]">
+                    <div className="flex cursor-pointer md:block items-center space-x-4 w-[35px] h-[35px]">
                         <img
                             className="max-w-full contain-layout"
                             src={assets.image_person}

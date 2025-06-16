@@ -7,7 +7,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean, onClose:
 
     const menu = [
         {
-            path: "/",
+            path: "/dashboard",
             icon: assets.ic_home,
             label: "Dashboard",
         },

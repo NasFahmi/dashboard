@@ -23,6 +23,7 @@ import ic_suitcase from './ic_suitcase.svg?react';
 import ic_transfer from './ic_transfer.svg?react';
 import image_person from './image_person.png';
 import image_logo from './image_logo.png';
+import image_not_found from './image_not_found.png';
 
 
 
@@ -51,5 +52,6 @@ export const assets ={
     ic_suitcase,
     ic_transfer,
     image_person,
-    image_logo
+    image_logo,
+    image_not_found,
 }

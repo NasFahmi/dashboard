@@ -62,7 +62,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   }
 
   return (
-    <main className=" text-center flex items-center justify-center container mx-auto h-screen w-screen">
+    <main className="container flex items-center justify-center w-screen h-screen mx-auto text-center ">
       <div className="">
         <h1>{message}</h1>
         <p>{details}</p>
