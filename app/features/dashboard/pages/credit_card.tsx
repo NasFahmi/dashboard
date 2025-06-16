@@ -45,52 +45,55 @@ export default function CreditCardPage() {
                     <h1 className="text-lg font-bold text-[#343C6A]  mt-5 mb-3">Add New Card</h1>
                     <div className="w-full col-span-1 py-[30px] bg-white px-[27px] rounded-[20px]">
                         <p className="text-[#718EBF] text-sm md:text-base">Credit Card generally means a plastic card issued by Scheduled Commercial Banks assigned to a Cardholder, with a credit limit, that can be used to purchase goods and services on credit or obtain cash advances.</p>
-                        <div className="flex flex-col items-center gap-4 mt-4 md:flex-row">
+                        <form action="">
 
-                            {/* card type */}
-                            <div className="flex flex-col w-full gap-2 md:w-1/2">
-                                <h1 className="text-xs text-[#232323]">Card Type</h1>
-                                <input
-                                    type="text"
-                                    placeholder="Classic"
-                                    className="w-full border-1 bg-white rounded-[15px] flex py-3 px-5 gap-2.5 border-[#DFEAF2] outline-none focus:border-[#343C6A] text-[#8BA3CB] text-[13px]"
-                                />
-                            </div>
-                            {/* card type */}
-                            <div className="flex flex-col w-full gap-2 md:w-1/2">
-                                <h1 className="text-xs text-[#232323]">Name On Card</h1>
-                                <input
-                                    type="text"
-                                    placeholder="My Card"
-                                    className="w-full border-1 bg-white rounded-[15px] flex py-3 px-5 gap-2.5 border-[#DFEAF2] outline-none focus:border-[#343C6A] text-[#8BA3CB] text-[13px]"
-                                />
-                            </div>
-                        </div>
+                            <div className="flex flex-col items-center gap-4 mt-4 md:flex-row">
 
-                        <div className="flex flex-col items-center gap-4 mt-4 md:flex-row">
+                                {/* card type */}
+                                <div className="flex flex-col w-full gap-2 md:w-1/2">
+                                    <h1 className="text-xs text-[#232323]">Card Type</h1>
+                                    <input
+                                        type="text"
+                                        placeholder="Classic"
+                                        className="w-full border-1 bg-white rounded-[15px] flex py-3 px-5 gap-2.5 border-[#DFEAF2] outline-none focus:border-[#343C6A] text-[#8BA3CB] text-[13px]"
+                                    />
+                                </div>
+                                {/* card type */}
+                                <div className="flex flex-col w-full gap-2 md:w-1/2">
+                                    <h1 className="text-xs text-[#232323]">Name On Card</h1>
+                                    <input
+                                        type="text"
+                                        placeholder="My Card"
+                                        className="w-full border-1 bg-white rounded-[15px] flex py-3 px-5 gap-2.5 border-[#DFEAF2] outline-none focus:border-[#343C6A] text-[#8BA3CB] text-[13px]"
+                                    />
+                                </div>
+                            </div>
 
-                            {/* card type */}
-                            <div className="flex flex-col w-full gap-2 md:w-1/2">
-                                <h1 className="text-xs text-[#232323]">Card Number</h1>
-                                <input
-                                    type="text"
-                                    placeholder="**** **** **** ****"
-                                    className="w-full border-1 bg-white rounded-[15px] flex py-3 px-5 gap-2.5 border-[#DFEAF2] outline-none focus:border-[#343C6A] text-[#8BA3CB] text-[13px]"
-                                />
+                            <div className="flex flex-col items-center gap-4 mt-4 md:flex-row">
+
+                                {/* card type */}
+                                <div className="flex flex-col w-full gap-2 md:w-1/2">
+                                    <h1 className="text-xs text-[#232323]">Card Number</h1>
+                                    <input
+                                        type="text"
+                                        placeholder="**** **** **** ****"
+                                        className="w-full border-1 bg-white rounded-[15px] flex py-3 px-5 gap-2.5 border-[#DFEAF2] outline-none focus:border-[#343C6A] text-[#8BA3CB] text-[13px]"
+                                    />
+                                </div>
+                                {/* card type */}
+                                <div className="flex flex-col w-full gap-2 md:w-1/2">
+                                    <h1 className="text-xs text-[#232323]">Expiration Date</h1>
+                                    <input
+                                        type="text"
+                                        placeholder="25 January 2025"
+                                        className="w-full border-1 bg-white rounded-[15px] flex py-3 px-5 gap-2.5 border-[#DFEAF2] outline-none focus:border-[#343C6A] text-[#8BA3CB] text-[13px]"
+                                    />
+                                </div>
                             </div>
-                            {/* card type */}
-                            <div className="flex flex-col w-full gap-2 md:w-1/2">
-                                <h1 className="text-xs text-[#232323]">Expiration Date</h1>
-                                <input
-                                    type="text"
-                                    placeholder="25 January 2025"
-                                    className="w-full border-1 bg-white rounded-[15px] flex py-3 px-5 gap-2.5 border-[#DFEAF2] outline-none focus:border-[#343C6A] text-[#8BA3CB] text-[13px]"
-                                />
-                            </div>
-                        </div>
-                        <button type="submit" className=" cursor-pointer w-full md:max-w-[120px] bg-[#1814F3] text-white rounded-[9px] py-3 px-5 mt-4 text-sm md:text-base font-semibold hover:bg-[#1814f3b4] transition-colors duration-200 ease-in-out  ">
-                            Add Card
-                        </button>
+                            <button type="submit" className=" cursor-pointer w-full md:max-w-[120px] bg-[#1814F3] text-white rounded-[9px] py-3 px-5 mt-4 text-sm md:text-base font-semibold hover:bg-[#1814f3b4] transition-colors duration-200 ease-in-out  ">
+                                Add Card
+                            </button>
+                        </form>
                     </div>
                 </div>
                 {/* card list */}

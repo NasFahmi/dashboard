@@ -5,6 +5,7 @@ import ic_credit_card_block from './ic_credit_card_block.svg?react';
 import ic_credit_card from './ic_credit_card.svg?react';
 import ic_economic_idea from './ic_economic_idea.svg?react';
 import ic_economic_invesment from './ic_economic_investment.svg?react';
+import ic_investment from './ic_investment.svg?react';
 import ic_google from './ic_google.svg?react';
 import ic_home from './ic_home.svg?react';
 import ic_insurance from './ic_insurance.svg?react';
@@ -33,6 +34,7 @@ export const assets ={
     ic_credit_card,
     ic_economic_idea,
     ic_economic_invesment,
+    ic_investment,
     ic_google,
     ic_home,
     ic_insurance,

@@ -6,6 +6,10 @@ export default [
         index("routes/dashboard.tsx"),
         route("credit-card", "routes/credit_card.tsx"),
         route("service", "routes/service.tsx"),
-        route("setting", "routes/setting.tsx"),
+        route("setting", "routes/setting/setting_layout.tsx", [
+            route("edit-profile", "routes/setting/edit_profile.tsx"),
+            route("preference", "routes/setting/preference.tsx"),
+            route("security", "routes/setting/security.tsx"),
+        ]),
     ]),
 ] satisfies RouteConfig;

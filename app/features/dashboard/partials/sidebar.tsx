@@ -47,7 +47,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean, onClose:
             label: "Service",
         },
         {
-            path: "/setting",
+            path: "/setting/edit-profile",
             icon: assets.ic_settings,
             label: "Setting",
         },
@@ -63,7 +63,8 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean, onClose:
                 </div>
                 <nav className="flex flex-col mb-12 gap-9">
                     {menu.map(({ path, icon: Icon, label }) => {
-                        const isActive = pathname === path;
+                        const isActive = pathname.startsWith(path);
+
                         return (
                             <Link
                                 key={path}
